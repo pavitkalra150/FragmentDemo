@@ -4,15 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SecondActivity">
 
 
-
-<!--    STATIC WAY TO ADD FRAGMENT REST OF THE CODE IN MAIN FRAGMENT-->
-    <fragment
-        android:id="@+id/fragmentdemo"
+    <FrameLayout
+        android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.example.fragmentdemo.fragment_main"/>
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
